@@ -38,7 +38,7 @@ DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 IMAGE_SIZE = 512          # U-Net 下采样 4 次，建议使用 16 的倍数
 BATCH_SIZE = 2            # CPU 环境建议 1 或 2
-EPOCHS = 5                # 课程演示可先用 5；想提高效果可改大
+EPOCHS = 5                # 演示可先用 5；想提高效果可改大
 LR = 1e-4
 THRESHOLD = 0.5
 SEED = 42

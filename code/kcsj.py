@@ -15,7 +15,7 @@ except ImportError as e:
     exit()
 
 # 2. 配置文件路径（新增验证集路径，适配你的文件位置）
-input_file = r"C:\Users\ahdezneytiry-boop1\Desktop\amp.csv"
+input_file = "data/amp.csv"
 train_file = r"c:/Users/ahdezneytiry-boop1/Desktop/daima/train.fasta"    # 训练集（70%）
 valid_file = r"c:/Users/ahdezneytiry-boop1/Desktop/daima/valid.fasta"    # 验证集（20%）- 新增
 test_file = r"c:/Users/ahdezneytiry-boop1/Desktop/daima/test.fasta"      # 测试集（10%）

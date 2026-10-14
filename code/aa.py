@@ -16,7 +16,7 @@ except ImportError as e:
 
 # -------------------------- 1. 配置文件路径（适配你的本地路径） --------------------------
 # 输入：你的非AMP负样本文件
-non_amp_input = r"C:\Users\ahdezneytiry-boop1\Desktop\negative.csv"
+non_amp_input = "data/negative.csv"
 # 输出：与AMP同目录（daima文件夹），文件名带non_amp前缀区分
 non_amp_train = r"c:/Users/ahdezneytiry-boop1/Desktop/daima/non_amp_train.fasta"  # 非AMP训练集（70%）
 non_amp_valid = r"c:/Users/ahdezneytiry-boop1/Desktop/daima/non_amp_valid.fasta"  # 非AMP验证集（20%）
